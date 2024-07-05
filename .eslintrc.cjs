@@ -8,6 +8,7 @@ module.exports = {
   ],
   ignorePatterns: ["dist", ".eslintrc.cjs"],
   parser: "@typescript-eslint/parser",
+  // This template project comes with the Lekko ESLint plugin pre-configured.
   plugins: ["react-refresh", "@lekko"],
   rules: {
     "react-refresh/only-export-components": [
